@@ -1,3 +1,4 @@
+![Preview do Relatório](Relatorio%20Crystal.png)
 🚗 Sistema de Gestão de Manutenção de Frota (PL/SQL & Crystal Reports)
 Este projeto demonstra a implementação de um back-end robusto em Oracle SQL/PL/SQL integrado a um relatório profissional em Crystal Reports. O sistema automatiza o controle de odômetro, alertas de manutenção preventiva e análise de custos de uma frota de veículos.
 
