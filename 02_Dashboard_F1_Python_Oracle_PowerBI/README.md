@@ -17,7 +17,7 @@ Metodologia: ITIL v4 (Processos de entrega de serviço de dados confiáveis).
 
 /sql_scripts: Scripts de criação de tabelas (STG e Produção), Procedures de carga e Views otimizadas para o Power BI.
 
-/dashboard: Arquivo .pbit (template) do dashboard configurado no Acer Nitro V15.
+/dashboard: Arquivo .pbit (template) do dashboard configurado .
 
 🚀 Funcionalidades Principais
 Carga Automatizada: Script Python que busca dados dos 5 primeiros GPs da temporada.
