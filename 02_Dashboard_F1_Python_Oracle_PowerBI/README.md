@@ -13,6 +13,7 @@ Visualização: Power BI (KPIs de liderança e análise de performance).
 Metodologia: ITIL v4 (Processos de entrega de serviço de dados confiáveis).
 
 📂 Estrutura do Repositório
+
 /python_scripts: Scripts de integração que realizam o merge entre os endpoints de drivers e positions.
 
 /sql_scripts: Scripts de criação de tabelas (STG e Produção), Procedures de carga e Views otimizadas para o Power BI.
