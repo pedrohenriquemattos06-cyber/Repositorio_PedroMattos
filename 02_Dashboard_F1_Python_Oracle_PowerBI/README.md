@@ -26,3 +26,7 @@ Carga Automatizada: Script Python que busca dados dos 5 primeiros GPs da tempora
 Medidas DAX Personalizadas: Cálculo de "Ganhos de Posição" (Saldo de Ultrapassagens).
 
 Identidade Visual: Dashboard personalizado com as cores hexadecimais oficiais das equipes da F1.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Para utilizar basta Rodar a integração python e a proc do Oracle para abastecer as tabelas, sendo os dados exibidos no BI
