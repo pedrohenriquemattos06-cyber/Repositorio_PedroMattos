@@ -1,3 +1,5 @@
+<img width="1322" height="738" alt="dashboard_f1_pagina1" src="https://github.com/user-attachments/assets/886fa842-9031-434b-b091-cdabf6a67dff" />
+
 🏎️ F1 Data Analytics Dashboard: Python + Oracle + Power BI
 Este projeto automatiza a extração de dados da API OpenF1 e transforma dados brutos em insights de performance através de um dashboard interativo.
 
