@@ -3,8 +3,8 @@ import requests
 
 # Configurações do seu Banco Oracle XE
 db_config = {
-    "user": "estudos",
-    "password": "ORACLE",
+    "user": "",
+    "password": "",
     "dsn": "localhost:1521/xe"
 }
 
