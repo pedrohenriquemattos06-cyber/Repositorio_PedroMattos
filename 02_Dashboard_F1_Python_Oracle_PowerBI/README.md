@@ -23,10 +23,24 @@ Metodologia: ITIL v4 (Processos de entrega de serviço de dados confiáveis).
 🚀 Funcionalidades Principais
 Carga Automatizada: Script Python que busca dados dos 5 primeiros GPs da temporada.
 
+Utilização de tabelas de Staging (STG_F1_CARGA) para garantir o isolamento dos dados antes da carga final em produção, seguindo boas práticas de ETL.
+
+Integração de APIs: O script Python realiza o cruzamento (merge) entre os endpoints de Drivers e Positions, resolvendo a fragmentação dos dados brutos e garantindo a integridade dos resultados de cada GP.
+
 Medidas DAX Personalizadas: Cálculo de "Ganhos de Posição" (Saldo de Ultrapassagens).
 
 Identidade Visual: Dashboard personalizado com as cores hexadecimais oficiais das equipes da F1.
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Para utilizar basta Rodar a integração python e a proc do Oracle para abastecer as tabelas, sendo os dados exibidos no BI
+Como utilizar?
+
+1-Configure as credenciais do seu banco no arquivo f1_api_integration_to_oracle.py.
+
+2-Execute os scripts SQL para criar a estrutura de tabelas e procedures no Oracle XE.
+
+3-Rode o script Python para extrair os dados da API e carregar a Staging.
+
+4-Execute a procedure PRC_CARGA_DADOS_F1 para processar os dados finais.
+
+5-Abra o dashboard no Power BI e clique em "Atualizar".
