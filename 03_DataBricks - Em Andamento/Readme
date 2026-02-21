@@ -1,0 +1,26 @@
+Projeto: Pipeline de Dados de Frota Automotiva - Arquitetura Medallion com Databricks
+Descrição
+Este projeto demonstra a implementação de um pipeline de ETL (Extração, Transformação e Carga) utilizando a Arquitetura Medallion dentro da plataforma Databricks. O objetivo foi processar dados de uma frota de veículos — inspirando-se em cenários reais de gestão de ativos — evoluindo o dado desde o seu estado bruto até a geração de indicadores de negócio (KPIs).
+
+Tecnologias Utilizadas
+Databricks (Free Trial/Serverless): Plataforma de processamento de dados.
+
+PySpark: Motor de processamento distribuído para manipulação de grandes volumes de dados.
+
+Delta Lake: Camada de armazenamento que garante transações ACID e confiabilidade aos dados.
+
+Lógica de Negócio: Aplicada para identificação de manutenção e saúde da frota.
+
+Estrutura do Pipeline
+Camada Bronze (Raw): Ingestão de dados brutos simulando a extração de sistemas legados ou ERPs (como o Oracle/Mega ERP).
+
+Camada Silver (Trusted): Processo de higienização, incluindo tratamento de valores nulos, padronização de strings e tipagem correta de dados (Casting).
+
+Camada Gold (Refined): Agregações estratégicas para análise executiva, como média de quilometragem por marca e alertas de revisão baseados no desgaste dos veículos.
+
+Destaques Técnicos
+Uso de Data Quality para filtrar registros inconsistentes.
+
+Implementação de transformações complexas que superam as limitações do SQL tradicional.
+
+Estrutura preparada para integração direta com Power BI.
